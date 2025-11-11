@@ -10,6 +10,8 @@ from shot import Shot
 
 def main():
     print("Starting Asteroids!")
+    print("Screen width: 1280")
+    print("Screen height: 720")
     pygame.init()
     size = (SCREEN_WIDTH, SCREEN_HEIGHT)
     screen = pygame.display.set_mode(size)
